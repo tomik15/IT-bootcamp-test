@@ -1,0 +1,48 @@
+name: minimalist-html-demo
+version: 1.0.9
+main: .
+repository:
+  type: git
+  url: 'git+ssh://git@github.com/blocklet/minimalist-html-demo.git'
+author:
+  name: Arcblock
+license: MIT
+files:
+  - blocklet.md
+  - README.md
+  - index.html
+title: Simple HTML Demo
+keywords:
+  - static
+  - demo
+  - html
+description: A minimalist Blocklet demo with plain HTML. It's simple a web page.
+group: static
+specVersion: 1.1.1
+did: z8iZjejYpy7TeJbTq6oXLbVgXemAMbpqwM17Q
+community: ''
+documentation: ''
+homepage: ''
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /
+    prefix: '*'
+    port: BLOCKLET_PORT
+    protocol: tcp
+environments: []
+screenshots: []
+scripts: {}
+timeout:
+  start: 10
+requirements:
+  abtnode: '>=1.1.0'
+  os: '*'
+  cpu: '*'
+charging:
+  price: 0
+  tokens: []
+  shares: []
+children: []
+capabilities:
+  clusterMode: false
